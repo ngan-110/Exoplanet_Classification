@@ -1,0 +1,26 @@
+|--- Stellar Eclipse Flag <= 0.50
+|   |--- Centroid Offset Flag <= 0.50
+|   |   |--- Not Transit-Like Flag <= 0.50
+|   |   |   |--- Ephemeris Match Indicates Contamination Flag <= 0.50
+|   |   |   |   |--- weights: [0.00, 1398.00] class: 1.0
+|   |   |   |--- Ephemeris Match Indicates Contamination Flag >  0.50
+|   |   |   |   |--- weights: [85.00, 0.00] class: 0.0
+|   |   |--- Not Transit-Like Flag >  0.50
+|   |   |   |--- weights: [322.00, 0.00] class: 0.0
+|   |--- Centroid Offset Flag >  0.50
+|   |   |--- weights: [692.00, 0.00] class: 0.0
+|--- Stellar Eclipse Flag >  0.50
+|   |--- Transit Epoch (BJD - 2,454,833.0) <= 121.67
+|   |   |--- weights: [0.00, 1.00] class: 1.0
+|   |--- Transit Epoch (BJD - 2,454,833.0) >  121.67
+|   |   |--- Stellar Effective Temperature (Kelvin)
+Uncertainties (negative) <= -127.00
+|   |   |   |--- weights: [1354.00, 0.00] class: 0.0
+|   |   |--- Stellar Effective Temperature (Kelvin)
+Uncertainties (negative) >  -127.00
+|   |   |   |--- Transit Epoch (BJD - 2,454,833.0)
+Uncertainties (positive) <= 0.00
+|   |   |   |   |--- weights: [14.00, 4.00] class: 0.0
+|   |   |   |--- Transit Epoch (BJD - 2,454,833.0)
+Uncertainties (positive) >  0.00
+|   |   |   |   |--- weights: [169.00, 2.00] class: 0.0
